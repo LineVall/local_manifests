@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="unhub"
+            fetch="https://github.com/UnsatifsedError/" />
+    <remote name="unlab"
+            fetch="https://gitlab.com/unsatifsed27/" />
+    <remote name="hub"
+            fetch="https://github.com/" />
+    <remote name="lab"
+            fetch="https://gitlab.com/" />
+    <remote name="gedang"
+            fetch="https://github.com/bananadroid-devices/" />
+
+    <!-- Trees -->
+    <project path="vendor/xiaomi/sweet-miuicamera" name="miuicamera" remote="unlab" clone-depth="1"  revision="tosle" />
+    <project path="vendor/dolby" name="dolby" remote="unlab" clone-depth="1"  revision="sondolby" />
+    
+    <!-- Compiler -->
+    <project path="prebuilts/clang/host/linux-x86/clang-playground" name="clang" remote="unlab" clone-depth="1" revision="play17" />
+    <project path="prebuilts/clang/host/linux-x86/clang-banana" name="clang" remote="unlab" revision="ban17" />
+</manifest>
