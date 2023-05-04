@@ -1,0 +1,10 @@
+export TZ=Asia/Jakarta
+export KBUILD_BUILD_USER=DjuancoX
+export KBUILD_BUILD_HOST=SemoXcoX™
+export BUILD_USERNAME=DjuancoX
+export BUILD_HOSTNAME=SemoXcoX™
+export WITH_GAPPS=true
+export BUILD_CORE_GAPPS=true
+export TARGET_GAPPS_ARCH=arm64
+export TARGET_USE_GOOGLE_TELEPHONY=true
+export TARGET_SUPPORTS_64_BIT_APPS=true
