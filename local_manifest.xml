@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="unhub"
+            fetch="https://github.com/UnsatifsedError/" />
+    <remote name="unlab"
+            fetch="https://gitlab.com/unsatifsed27/" />
+    <remote name="hub"
+            fetch="https://github.com/" />
+    <remote name="lab"
+            fetch="https://gitlab.com/" />
+
+    <!-- Trees -->
+    <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="unhub" clone-depth="1" revision="spark" />
+    <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="unhub" clone-depth="1" revision="spark" />
+    <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="unhub" clone-depth="1" revision="losven" />
+    <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sm6150-common" remote="unhub" clone-depth="1" revision="losven" />
+    <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="unhub" clone-depth="1" revision="semlohey" />
+    <project path="vendor/xiaomi/sweet-miuicamera" name="miuicamera" remote="unlab" clone-depth="1"  revision="tosle" />
+    <project path="vendor/dolby" name="dolby" remote="unlab" clone-depth="1"  revision="sondolby" />
+    
+    <!-- Compiler -->
+    <project path="prebuilts/clang/host/linux-x86/clang-playground" name="clang" remote="unlab" clone-depth="1" revision="play17" />
+    <project path="prebuilts/clang/host/linux-x86/clang-banana" name="clang" remote="unlab" clone-depth="1" revision="ban17" />
+</manifest>
